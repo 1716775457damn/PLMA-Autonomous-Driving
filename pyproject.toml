@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plma-autonomous-driving"
+version = "0.1.0"
+description = "Predictive Local Multiple Attention for autonomous-driving risk assessment"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Xinwang Tao" }]
+dependencies = ["numpy>=1.23", "pandas>=1.5", "scikit-learn>=1.1", "matplotlib>=3.6", "seaborn>=0.12", "psutil>=5.9", "torch>=2.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

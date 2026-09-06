@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "PLMA: Predictive Local Multiple Attention for Real-time Risk Assessment in Autonomous Driving"
+type: software
+message: "Please cite the associated IEEE paper when using this code."
+authors:
+  - family-names: Tao
+    given-names: Xinwang
+  - family-names: Zhang
+    given-names: Jinlai
+  - family-names: Wang
+    given-names: Lecu
+  - family-names: Gao
+    given-names: Kai
+  - family-names: Liu
+    given-names: Zhizhen
+  - family-names: Hu
+    given-names: Lin
+repository-code: "https://github.com/1716775457damn/PLMA-Autonomous-Driving"
+url: "https://ieeexplore.ieee.org/document/11513734"

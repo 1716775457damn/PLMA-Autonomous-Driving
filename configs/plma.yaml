@@ -1,0 +1,14 @@
+# Public release configuration placeholder
+
+data:
+  root: ./data
+  dataset: dataset.pkl
+
+training:
+  seed: 42
+  batch_size: 32
+  max_epochs: 50000
+  patience: 1000
+
+output:
+  directory: ./outputs
